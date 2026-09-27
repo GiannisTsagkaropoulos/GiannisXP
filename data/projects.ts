@@ -21,7 +21,7 @@ export const projectData: Project[] = [
     stack: ["C", "SIMD", "Optimization"],
     link: "https://github.com/GiannisTsagkaropoulos/Advanced-Systems-Lab",
     brief: "Design, implementation and optimization of the ChaCha20-Poly1305 AEAD scheme.",
-    description: "This is the Advanced Systems Lab Project Work for MSc Advanced Systems Lab course offered at ETH Zurich (263-0007-00L). \n \n \n Important: This is a performance-optimization project, not a production-ready cryptographic library. Use a maintained library such as OpenSSL for security-critical, time-constant applications. \n \n Project goal: Design, implement and optimize the ChaCha20-Poly1305 Authenticated Encryption with Associated Data (AEAD) scheme. Specifically, \n 1. Provide a baseline of the code which is compliant with the specifications RFC8439.   \n2. Create a first optimized version of the implementation using the techniques learned during the course, such as ILP, inlining, precomputation, memory optimizations. \n3. Create a fully optimized vectorized code, using the best SIMD/AVX combination possible.  \n4. Extend the Poly1305 code to support an additional prime field. \n5. Compare with existing state-of-art implementations such as OpenSSL.",
+    description: "This is the Advanced Systems Lab Project Work for MSc Advanced Systems Lab course offered at ETH Zurich (263-0007-00L). \n \n \n Important: This is a performance-optimization project, not a production-ready cryptographic library. Use a maintained library such as OpenSSL for security-critical, time-constant applications. \n \n Project goal: Design, implement and optimize the ChaCha20-Poly1305 Authenticated Encryption with Associated Data (AEAD) scheme. Specifically, \n 1. Provide a baseline of the code which is compliant with the specifications RFC8439. \n \n 2. Create a first optimized version of the implementation using the techniques learned during the course, such as ILP, inlining, precomputation, memory optimizations. \n3. Create a fully optimized vectorized code, using the best SIMD/AVX combination possible.  \n4. Extend the Poly1305 code to support an additional prime field. \n5. Compare with existing state-of-art implementations such as OpenSSL.",
     updatedAt: "18 September 2026",
     views: "1.8K",
     likes: 42,
@@ -47,6 +47,23 @@ export const projectData: Project[] = [
       { author: "@Paul Falstad", age: "2 weeks ago", text: "This is gonna make me replace zsh", likes: 46 },
       { author: "@impatient-dev", age: "1 day ago", text: "When are you planning to add pipes?", likes: 2 },
       { author: "@bug-bounter36", age: "1 day ago", text: "Sth is wrong with the parser and I have found mulitple inputs that break GSH, message me to resolve.", likes: 2 }
+    ]
+  },
+  {
+    id: 'agent-on-leash',
+    title: "Agent on a Leash (StartHack 2026)",
+    imgUrl: "agent-on-leash.png",
+    stack: ["Python", "Typescript", "Next.js"],
+    link: "https://github.com/GiannisTsagkaropoulos/leash-agentic-commerce",
+    brief: "A solution that keeps a customer in control when an AI shopping agent wants to spend their money.",
+    description: "Agent on a Leash is a hackathon prototype for keeping customers in control when an AI shopping agent can spend on their behalf. A customer describes purchasing rules in plain language, reviews the extracted authority, and sees each generated purchase approved, declined, or escalated for human review with an auditable reason. The prototype had 2 jobs: \n \n 1. Let the customer control what is allowed. Help them explain their wishes, review the permissions your system understands, and confirm, tighten, or revoke them (withdraw permission). 2. Decide whether each purchase should go ahead. Considering those permissions, the purchase facts, and relevant past activity we needed to explain the result and remember earlier decisions when they affect the next purchase.",
+    updatedAt: "27 September 2026",
+    views: "7.2K",
+    likes: 120,
+    uploadedBy: "Giannis Tsagkaropoulos",
+    comments: [
+      { author: "@Viseca", age: "5 days ago", text: "Lucky that we own the IP to that product.", likes: 15 },
+      { author: "@Mastercard", age: "2 weeks ago", text: "Oh man we are losing our competitive edge in agentic shopping.", likes: 17 },
     ]
   },
   {
