@@ -16,13 +16,13 @@ export type Project = {
 export const projectData: Project[] = [
   {
     id: 'advanced-systems-lab',
-    title: "Advanced Systems Lab",
+    title: "Chacha20 Poly1305 Optimization",
     imgUrl: "advanced-systems-lab.png",
     stack: ["C", "SIMD", "Optimization"],
-    link: "https://github.com/GiannisTsagkaropoulos/Advanced-Systems-Lab",
+    link: "https://github.com/GiannisTsagkaropoulos/Chacha20-Poly1305-Optimization",
     brief: "Design, implementation and optimization of the ChaCha20-Poly1305 AEAD scheme.",
     description: "This is the Advanced Systems Lab Project Work for MSc Advanced Systems Lab course offered at ETH Zurich (263-0007-00L). \n \n \n Important: This is a performance-optimization project, not a production-ready cryptographic library. Use a maintained library such as OpenSSL for security-critical, time-constant applications. \n \n Project goal: Design, implement and optimize the ChaCha20-Poly1305 Authenticated Encryption with Associated Data (AEAD) scheme. Specifically, \n 1. Provide a baseline of the code which is compliant with the specifications RFC8439. \n \n 2. Create a first optimized version of the implementation using the techniques learned during the course, such as ILP, inlining, precomputation, memory optimizations. \n3. Create a fully optimized vectorized code, using the best SIMD/AVX combination possible.  \n4. Extend the Poly1305 code to support an additional prime field. \n5. Compare with existing state-of-art implementations such as OpenSSL.",
-    updatedAt: "18 September 2026",
+    updatedAt: "29 September 2026",
     views: "1.8K",
     likes: 42,
     uploadedBy: "Giannis Tsagkaropoulos",
