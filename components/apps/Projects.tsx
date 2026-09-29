@@ -120,7 +120,10 @@ function ProjectCard({
   onSelect: () => void
 }) {
   return (
-    <button onClick={onSelect} className="group min-w-0 text-left text-white">
+    <button
+      onClick={onSelect}
+      className="group min-w-0 text-left text-white hover:cursor-pointer hover:opacity-80"
+    >
       <div className="aspect-video overflow-hidden rounded-xl border border-[#515151] bg-[#222] group-hover:border-white">
         <ProjectImage project={project} />
       </div>
@@ -428,7 +431,7 @@ function ProjectDetail({
                   <button
                     key={item.id}
                     onClick={() => onSelectProject(item)}
-                    className="block w-full text-left text-white"
+                    className="block w-full text-left text-white hover:cursor-pointer hover:opacity-80"
                   >
                     <div className="aspect-video overflow-hidden rounded border border-[#555]">
                       <ProjectImage project={item} />
