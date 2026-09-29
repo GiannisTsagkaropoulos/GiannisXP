@@ -66,7 +66,24 @@ export const projectData: Project[] = [
       { author: "@Mastercard", age: "2 weeks ago", text: "Oh man we are losing our competitive edge in agentic shopping.", likes: 17 },
     ]
   },
-  {
+    {
+    id: 'julia-nkua',
+    title: "Julia NKUA",
+    imgUrl: "julia-nkua.png",
+    stack: ["Julia", "JavaScript"],
+    link: "https://www.juliateamnkua.com/",
+    brief: "Guides for Julia Programming Language and interactive notebooks for Arithmetican Analysis, Number Theory and Applied Mathematics.",
+    description: "Julia NKUA is an organization of the National and Kapodistrian University of Athens.\n \n It's goal is to make Julia Programming Language more accessible and useful for the scientific community. We present a brief introduction & guide to Julia language. \n \n \n We examine calculation of pivot patterns emerging from application of GECP in Hadamard matrices, Benchmarks between Julia, Matlab & Python in applications of matrix computations & the Newton-Raphson method, Base conversion programs, Polynomial Interpolation, Natural Cubic Splines, Accuracy of different expressions of equal quantities. All those are showcased using Pluto.jl: an open-source, reactive notebook environment.",
+    updatedAt: "February 2026",
+    views: "5K",
+    likes: 60,
+    uploadedBy: "Giannis Tsagkaropoulos",
+    comments: [
+      { author: "@Fons van der Plas", age: "1 year ago", text: "That's a great use of Pluto.jl! Love it.", likes: 16},
+      { author: "@Stefan Karpinski", age: "1.5 year ago", text: "Did you have any problems while using Julia? I would love to hear your feedback", likes: 2 },
+    ]
+  },
+    {
     id: 'tikz-graphics',
     title: "Tikz Graphics",
     imgUrl: "tikz-graphics.png",
@@ -84,21 +101,53 @@ export const projectData: Project[] = [
       { author: "@Stefan Kottwitz", age: "1 day ago", text: "Man could I could advertize those in tikz.net.?", likes: 2 }
     ]
   },
-    {
-    id: 'julia-nkua',
-    title: "Julia NKUA",
-    imgUrl: "julia-nkua.png",
-    stack: ["Julia", "JavaScript"],
-    link: "https://www.juliateamnkua.com/",
-    brief: "Guides for Julia Programming Language and interactive notebooks for Arithmetican Analysis, Number Theory and Applied Mathematics.",
-    description: "Julia NKUA is an organization of the National and Kapodistrian University of Athens.\n \n It's goal is to make Julia Programming Language more accessible and useful for the scientific community. We present a brief introduction & guide to Julia language. \n \n \n We examine calculation of pivot patterns emerging from application of GECP in Hadamard matrices, Benchmarks between Julia, Matlab & Python in applications of matrix computations & the Newton-Raphson method, Base conversion programs, Polynomial Interpolation, Natural Cubic Splines, Accuracy of different expressions of equal quantities. All those are showcased using Pluto.jl: an open-source, reactive notebook environment.",
-    updatedAt: "February 2026",
-    views: "5K",
-    likes: 60,
+   {
+    id: 'world-dev-indicators',
+    title: "World Development Indicators",
+    imgUrl: "world-dev-indicators.png",
+    stack: ["R", "Regression Analysis"],
+    link: "https://github.com/GiannisTsagkaropoulos/world-dev-indicators",
+    brief: "A study of Corruption Control using multiple regression analysis to clarify and project corruption control based on various global development indicators.",
+    description: "Computational implementation of semester project in Linear Models in National and Kapodistrian University of Athens (2023-2024). We were given a subset of the data of World Bank's WDI database consisting of 27 variables for 120 countries, in the year 2018. I selected to analyse Corruption Control (CorControl) for the following 3 part analysis. \n \n 1. Descriptive statistics: introduction of new categorical variables and calculation of basic descriptors \n \n  2. Multiple Regression: Choose 1 dependent vairable and develop a multiple regression model estimating the variable through the other indicators. Followed a Backward Stepwise procedure with AIC, interpret coefficients of the model, calculation of confidence internvals and more \n \n 3. ANOVA: Variance analysis with the independent variables 'FertCat' and 'InflCat' and the variable selected in Section 2 as the dependent variable : testing interaction and main effects of factors on the response variable at the 5% level of significance, test assumptions and investigate whether there is an effect of each level of factors on the response variable.",
+    updatedAt: "October 2024",
+    views: "1K",
+    likes: 32,
     uploadedBy: "Giannis Tsagkaropoulos",
     comments: [
-      { author: "@Fons van der Plas", age: "1 year ago", text: "That's a great use of Pluto.jl! Love it.", likes: 16},
-      { author: "@Stefan Karpinski", age: "1.5 year ago", text: "Did you have any problems while using Julia? I would love to hear your feedback", likes: 2 },
+      { author: "@European Commission", age: "1.5 year ago", text: "What a coincidence to be Greek and studying Corruption", likes: 35},
     ]
-  } 
+  },
+  {
+    id: 'ctf-solutions',
+    title: "CTF Solutions",
+    imgUrl: "ctf-solutions.png",
+    stack: ["Cryptography", "OSINT", "Python"],
+    link: "https://github.com/GiannisTsagkaropoulos/ctf-solutions",
+    brief: "CTF Solutions & Writeups",
+    description: "Personal repository containing CTF writeups, solution scripts, and challenge files organized by category. Problems are from Applied Cryptography course @ETHZ, BjornCTF2025, tfcctf2026.",
+    updatedAt: "September 2026",
+    views: "535",
+    likes: 7,
+    uploadedBy: "Giannis Tsagkaropoulos",
+    comments: [
+      { author: "@Anonymous", age: "1 day ago", text: "Are you looking for a job?", likes: 2},
+    ]
+  },
+  {
+    id: 'python-semester-projects',
+    title: "Python Semester Projects",
+    imgUrl: "python-semester-projects.png",
+    stack: ["Python"],
+    link: "https://github.com/GiannisTsagkaropoulos/Computer-Science-II",
+    brief: "Solutions of semester projects from Computer Science II (Functions, Files, Exceptions, OOP)",
+    description: "These project comprise of: \n \n 1. Foundational algorithms (e.g., sorting, number systems, Eratosthenes' sieve) \n 2. Efficient data structures for sparse matrices, priority queues, and encoded files \n 3. OOP solutions (complex number operations, polynomial arithmetic, and priority queues \n 4. Design of simulations and tools like file encoding/decoding, data storage systems, and game implementations (e.g., Hangman, Roulette, Chess Checkmate finder) \n \n Notable Implementations: 1. Roulette Game \n  - Endless play \n  - Dynamic features like borrowing money \n - Animation for roullete \n \n \n 2. Chess Exercise \n - Chessboard visualization in the terminal \n - Designed algorithms to detect checkmate patterns \n - Improved strategic understanding of chess rules and applied them programmatically",
+    updatedAt: "May 2022",
+    views: "1.531",
+    likes: 22,
+    uploadedBy: "Giannis Tsagkaropoulos",
+    comments: [
+      { author: "@Casey Muratoru", age: "3 years ago", text: "Damn the most innovative games I have ever witnessed", likes: 2},
+      { author: "@John Carmack", age: "2.5 years ago", text: "Do you think you can transition to programming Doom after the Chess implementation?", likes: 10},
+    ]
+  }
 ];
