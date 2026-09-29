@@ -53,7 +53,7 @@ export const projectData: Project[] = [
     id: 'agent-on-leash',
     title: "Agent on a Leash (StartHack 2026)",
     imgUrl: "agent-on-leash.png",
-    stack: ["Python", "Typescript", "Next.js"],
+    stack: ["FastAPI", "Python", "Typescript", "Next.js"],
     link: "https://github.com/GiannisTsagkaropoulos/leash-agentic-commerce",
     brief: "A solution that keeps a customer in control when an AI shopping agent wants to spend their money.",
     description: "Agent on a Leash is a hackathon prototype for keeping customers in control when an AI shopping agent can spend on their behalf. A customer describes purchasing rules in plain language, reviews the extracted authority, and sees each generated purchase approved, declined, or escalated for human review with an auditable reason. The prototype had 2 jobs: \n \n 1. Let the customer control what is allowed. Help them explain their wishes, review the permissions your system understands, and confirm, tighten, or revoke them (withdraw permission). 2. Decide whether each purchase should go ahead. Considering those permissions, the purchase facts, and relevant past activity we needed to explain the result and remember earlier decisions when they affect the next purchase.",
@@ -67,6 +67,22 @@ export const projectData: Project[] = [
     ]
   },
     {
+    id: 'giannis-xp',
+    title: "GiannisXP",
+    imgUrl: "giannis-xp.png",
+    stack: ["React.js", "Next.js"],
+    link: "https://github.com/GiannisTsagkaropoulos/GiannisXP",
+    brief: "My portfolio as a working Windows XP desktop in the browser. Open desktop apps to learn about information about me, my Projects and see my Resume.",
+    description: "My portfolio as a working Windows XP desktop in the browser. Boot the machine, log in and move through a 'window manager' with a Start menu, taskbar and windows-XP-inspired windows. Portfolio pages and interactive apps open like programs.",
+    updatedAt: "September 2026",
+    views: "13.073",
+    likes: 565,
+    uploadedBy: "Giannis Tsagkaropoulos",
+    comments: [
+      { author: "@Steve Ballmer", age: "2 hours ago", text: "If you make me a personal website like that I will stop having voicecracks", likes: 301 },
+    ]
+  },
+  {
     id: 'julia-nkua',
     title: "Julia NKUA",
     imgUrl: "julia-nkua.png",
