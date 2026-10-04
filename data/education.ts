@@ -19,11 +19,12 @@ export const educationData: Education[] = [
     details: [
       {
         key: "msc-0",
-        name: "Specialization",
-        value: [
-          "Secure and Reliable Systems",
-        ]
-      }
+        value: "Major: Secure and Reliable Systems"
+      },
+      {
+        key: "msc-1",
+        value: "Minor: Data Management Systems"
+        }
     ]
   }, 
   {
@@ -33,15 +34,12 @@ export const educationData: Education[] = [
     organization: "National and Kapodistrian University of Athens",
     details: [
       {
-        key: "bsc-0", name: "GPA", value: "9.46/10.0",
+        key: "bsc-0", value: "GPA: 9.46/10.0",
       }, 
        {
         key: "bsc-1",
-        name: "Specialization",
-        value: [
-          "Applied Mathematics",
-        ]
-      }
+        value: "Specialization: Applied Mathematics"
+        }
     ]
   }
 ];
